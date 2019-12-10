@@ -16,7 +16,9 @@ body {
     font-weight: 300;
 
     background-image: url("media/north_van.jpg");
-    background-position: cover;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
   }
 
   
