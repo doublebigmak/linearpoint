@@ -3,54 +3,38 @@
 *
 */
 
-html{
-    height:100%
+
+nav{
+  font-family: 'Merriweather';
 }
-
-
 body {
     height: 100%;
     min-height: 35rem;
     position: relative;
     font-family: 'Source Sans Pro';
     font-weight: 300;
-
-    background-image: url("media/north_van.jpg")
+    
   }
-
-  
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Merriweather';
-  font-weight: 700;
-}
 
 
 .masthead {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 3rem;
-    z-index: 2;
-  }
-
-.masthead .masthead-bg{
-    position: absolute;
-    background-color: rgba(46, 49, 49, 1);
-
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("../media/north_van.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #999;
 }
 
+  h1{
+    font-family: 'Merriweather';
+  }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #57a8cd;
-    opacity: 0.7;
-    z-index: 1;
+  .vertical-center{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
   }
