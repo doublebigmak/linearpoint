@@ -15,13 +15,16 @@ body {
     font-family: 'Source Sans Pro';
     font-weight: 300;
 
+    
+  }
+
+.bg{
     background-image: url("media/north_van.jpg");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-  }
+}
 
-  
 h1,
 h2,
 h3,
@@ -42,7 +45,7 @@ h6 {
 
 .masthead .masthead-bg{
     position: absolute;
-    background-color: rgba(46, 49, 49, 1);
+    background-color: rgba(46, 49, 49, 0.8);
     top: 0;
     bottom: 0;
     right: 0;
@@ -62,9 +65,7 @@ h6 {
     left: 0;
     height: 100%;
     width: 100%;
-    /*
-    *background-color: #57a8cd;
-    */
+
     opacity: 0.1;
     z-index: 1;
   }
