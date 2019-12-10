@@ -15,7 +15,8 @@ body {
     font-family: 'Source Sans Pro';
     font-weight: 300;
 
-    background-image: url("media/north_van.jpg")
+    background-image: url("media/north_van.jpg");
+    background-position: cover;
   }
 
   
