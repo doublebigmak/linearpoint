@@ -3,9 +3,6 @@
 *
 */
 
-html{
-    height:100%
-}
 
 nav{
   font-family: 'Merriweather';
@@ -16,15 +13,27 @@ body {
     position: relative;
     font-family: 'Source Sans Pro';
     font-weight: 300;
-    background: url("../media/north_van.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size:cover;
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    margin-top: 60px;
   }
+
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1495422964407-28c01bf82b0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #999;
+}
 
   h1{
     font-family: 'Merriweather';
+  }
+
+  .vertical-center{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
   }
