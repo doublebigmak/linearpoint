@@ -38,3 +38,9 @@ body {
     display: flex;
     align-items: center;
   }
+
+
+  .main_box{
+    backdrop-filter: opacity(80%);
+    backdrop-filter: blur(4px);
+  }
