@@ -25,6 +25,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #999;
+    top: 10rem;
     
 }
 
@@ -49,6 +50,7 @@ body {
   .main_box{
     backdrop-filter: opacity(80%);
     backdrop-filter: blur(4px);
+    
   }
 
   .form-control { width: 100%; }
